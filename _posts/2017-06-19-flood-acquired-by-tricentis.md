@@ -7,7 +7,7 @@ mathjax: true
 
 # Tricentis has acquired Flood IO
 
-Tricentis has acquired Flood IO: the industry’s most flexible and scalable on-demand load testing solution.
+The industry’s most flexible and scalable on-demand load testing solution.
 
 Flood helps development and testing teams understand how their applications scale with massive load generated from around the world. Flood’s breakthrough technology frees load testing from resource-intensive performance labs and “shifts it left” with a simplified and highly-scalable approach. It’s load testing architected for the needs of DevOps.
 

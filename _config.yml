@@ -10,7 +10,7 @@ url: "https://altentee.github.io/"
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Altentee
   links:
     - https://twitter.com/altentee
     - https://github.com/altentee
@@ -24,7 +24,7 @@ navigation: # Navigation links
 tagline: >
   Altentee - The Automation Company
 
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/emile-perron-190221_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: info@altentee.com
 
