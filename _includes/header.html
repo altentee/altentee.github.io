@@ -1,25 +1,18 @@
-<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <div class="container">
-    <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
-        <div class="header__logo--container">
-          <img src="{{ site.url }}{{ site.baseurl }}assets/img/favicon.ico"/>
-        </div>
-      </a>
-      <nav class="header__links">
-        <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
-            <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
-              <span itemprop="name">{{ item.name }}</span>
-            </a>
-          {% endfor %}
-        </div>
-      </nav>
-      <div class="header__toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:correkthorse@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/correkthorse"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/correkthorse"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
-    </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
   </div>
-</header>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>

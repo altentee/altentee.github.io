@@ -1,61 +1,15 @@
-# SITE CONFIGURATION
 title: Altentee
-author: altentee
-description: >
-  The Automation Company
-baseurl: "/"
-url: "https://altentee.github.io/"
-
-# SEO PLUGIN
-social:
-  name: Altentee
-  links:
-    - https://twitter.com/altentee
-    - https://github.com/altentee
-
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
-
-tagline: >
-  Altentee - The Automation Company
-
-hero_img: posts/emile-perron-190221_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
-
+description: The Automation Company
+username: altentee
+user_description: Altentee Pty Ltd
+user_title: The Automation Company
 email: info@altentee.com
+twitter_username: altenteee
+github_username:  altenteee
+gplus_username:  altenteee
 
-twitter_username: altentee
-github_username:  altentee
-
+# Google-analytics
 google-analytics:
   id: "UA-153490283-2"
 
-service_worker: true
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
-
-include: ['_pages']
-permalink: /:title/
-
-compress_html:
-  clippings: all
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+exclude: ['package.json', 'src' , 'node_modules']
